@@ -1,10 +1,10 @@
 function IsAPangrams(str = '') {
+
     str = str.toLowerCase()
     str = str.replace(/\s/g, '')
     let myArray = str.split('')
     let uniqueChars = [...new Set(myArray)]
-    console.log(uniqueChars)
-    console.log(uniqueChars.length)
+
     if (uniqueChars.length == 26) {
         return true
     }else{
