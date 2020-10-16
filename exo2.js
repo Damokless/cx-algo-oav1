@@ -7,10 +7,10 @@ function IsAPangrams(str = '') {
 
     if (uniqueChars.length == 26) {
         return true
-    }else{
+    } else {
         return false
     }
-    
+
 }
 
 
