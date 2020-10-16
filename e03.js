@@ -2,4 +2,4 @@ function marsos(str = '') {
     
 }
 
-console.log(marsos)
+console.log(marsos('SOFSOSSISSOW'))
